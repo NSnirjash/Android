@@ -9,11 +9,11 @@
 
     <ImageView
         android:id="@+id/splash"
-        android:layout_width="@dimen/_288sdp"
-        android:layout_height="@dimen/_273sdp"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_280sdp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/java" />
+        app:srcCompat="@drawable/pl_anim" />
 </androidx.constraintlayout.widget.ConstraintLayout>
