@@ -54,11 +54,14 @@ public class HomeActivity extends AppCompatActivity {
 
                     for(Slide slide : slides){
                         String relativeImagePath = slide.getImage();
-                        String baseUrl = "https://purbachal.emranhss.com";
+                        String baseUrl = "https://purbachal.emranhss.com/";
                         String imageUrl = baseUrl + relativeImagePath;
 
                         imageList.add(new SlideModel(imageUrl, slide.getTitle(), ScaleTypes.CENTER_CROP));
                         System.out.println(slide.getImage());
+                        System.out.println(imageUrl);
+                        System.out.println("*********************************");
+
                     }
 
                     ImageSlider imageSlider = findViewById(R.id.image_slider);
