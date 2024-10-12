@@ -1,5 +1,7 @@
 package com.nsnirjash.androidappjee59;
 
+import static com.nsnirjash.androidappjee59.R.id.lionsClubs;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -27,7 +29,7 @@ import retrofit2.Response;
 
 public class HomeActivity extends AppCompatActivity {
 
-    private ImageView notification;
+    private ImageView notification, lionsClubs;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -83,6 +85,16 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), Notification.class);
+                startActivity(intent);
+            }
+        });
+
+        lionsClubs = findViewById(R.id.lionsClubs);
+
+        lionsClubs.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), LionsClubsDashboard.class);
                 startActivity(intent);
             }
         });
