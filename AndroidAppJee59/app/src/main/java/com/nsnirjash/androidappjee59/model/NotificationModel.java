@@ -1,16 +1,16 @@
 package com.nsnirjash.androidappjee59.model;
 
-public class Notification {
+public class NotificationModel {
 
     private  int id;
     private  String date;
     private String news;
 
-    public Notification(int id) {
+    public NotificationModel(int id) {
 
     }
 
-    public Notification(int id, String date, String news) {
+    public NotificationModel(int id, String date, String news) {
         this.id = id;
         this.date = date;
         this.news = news;
