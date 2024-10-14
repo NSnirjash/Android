@@ -1,6 +1,9 @@
 package com.nsnirjash.dailynews;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,6 +12,9 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class HomeActivity extends AppCompatActivity {
+
+    private Button btnBdnews;
+    private Button btnProthomAlo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +25,24 @@ public class HomeActivity extends AppCompatActivity {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
+        });
+
+        btnBdnews = findViewById(R.id.btnBdnews);
+        btnBdnews.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), BdNews24.class);
+                startActivity(intent);
+            }
+        });
+
+        btnProthomAlo = findViewById(R.id.btnProthomAlo);
+        btnProthomAlo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), ProthomAlo.class);
+                startActivity(intent);
+            }
         });
     }
 }

@@ -3,129 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-    android:background="@color/deepgreen"
+    android:background="#DDEB6A"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".HomeActivity">
 
-<!--    <ScrollView-->
-<!--        android:layout_width="409dp"-->
-<!--        android:layout_height="729dp"-->
-<!--        tools:layout_editor_absoluteX="1dp"-->
-<!--        tools:layout_editor_absoluteY="1dp">-->
-
-<!--        <LinearLayout-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="match_parent"-->
-<!--            android:orientation="vertical"-->
-<!--            android:background="@drawable/home_top">-->
-
-<!--            <LinearLayout-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="match_parent"-->
-<!--                android:layout_marginTop="@dimen/_2sdp"-->
-<!--                android:gravity="center"-->
-<!--                android:orientation="horizontal">-->
-
-<!--                <ImageView-->
-<!--                    android:layout_width="@dimen/_100sdp"-->
-<!--                    android:layout_height="@dimen/_65sdp"-->
-<!--                    android:src="@drawable/dailynews" />-->
-
-
-<!--            </LinearLayout>-->
-
-<!--            <TextView-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:gravity="center"-->
-<!--                android:textColor="@color/red"-->
-<!--                android:text="WELCOME"-->
-<!--                android:textSize="@dimen/_20ssp"-->
-<!--                android:textStyle="bold|italic" />-->
-
-<!--            <TextView-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:gravity="center"-->
-<!--                android:textColor="@color/violate"-->
-<!--                android:text="Daily News"-->
-<!--                android:textSize="@dimen/_20ssp"-->
-<!--                android:textStyle="bold|italic" />-->
-
-<!--        </LinearLayout>-->
-
-<!--        <LinearLayout-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:orientation="vertical">-->
-
-<!--            <Button-->
-<!--                android:id="@+id/btnBdnews"-->
-<!--                android:layout_margin="@dimen/_10sdp"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:text="BD News 24"-->
-<!--                android:textSize="@dimen/_15ssp"-->
-<!--                android:textStyle="bold"-->
-<!--                />-->
-
-<!--&lt;!&ndash;            <Button&ndash;&gt;-->
-<!--&lt;!&ndash;                android:layout_margin="@dimen/_10sdp"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:layout_width="match_parent"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:layout_height="wrap_content"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:text="Dhaka Tribune"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:textSize="@dimen/_15ssp"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:textStyle="bold"&ndash;&gt;-->
-<!--&lt;!&ndash;                />&ndash;&gt;-->
-
-<!--&lt;!&ndash;            <Button&ndash;&gt;-->
-<!--&lt;!&ndash;                android:layout_margin="@dimen/_10sdp"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:layout_width="match_parent"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:layout_height="wrap_content"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:text="ডয়চে ভেলে - DW"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:textSize="@dimen/_15ssp"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:textStyle="bold"&ndash;&gt;-->
-<!--&lt;!&ndash;                />&ndash;&gt;-->
-
-<!--&lt;!&ndash;            <Button&ndash;&gt;-->
-<!--&lt;!&ndash;                android:layout_margin="@dimen/_10sdp"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:layout_width="match_parent"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:layout_height="wrap_content"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:text="The Business Standard"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:textSize="@dimen/_15ssp"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:textStyle="bold"&ndash;&gt;-->
-<!--&lt;!&ndash;                />&ndash;&gt;-->
-
-<!--&lt;!&ndash;            <Button&ndash;&gt;-->
-<!--&lt;!&ndash;                android:layout_width="match_parent"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:layout_height="wrap_content"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:layout_margin="@dimen/_10sdp"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:text="Bonik Barta"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:textSize="@dimen/_15ssp"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:textStyle="bold" />&ndash;&gt;-->
-
-<!--&lt;!&ndash;            <Button&ndash;&gt;-->
-<!--&lt;!&ndash;                android:layout_margin="@dimen/_10sdp"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:layout_width="match_parent"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:layout_height="wrap_content"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:text="The Financial Express"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:textSize="@dimen/_15ssp"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:textStyle="bold"&ndash;&gt;-->
-<!--&lt;!&ndash;                />&ndash;&gt;-->
-
-<!--&lt;!&ndash;            <Button&ndash;&gt;-->
-<!--&lt;!&ndash;                android:layout_margin="@dimen/_10sdp"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:layout_width="match_parent"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:layout_height="wrap_content"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:text="যায় যায় দিন"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:textSize="@dimen/_15ssp"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:textStyle="bold"&ndash;&gt;-->
-<!--&lt;!&ndash;                />&ndash;&gt;-->
-
-<!--        </LinearLayout>-->
-
-<!--    </ScrollView>-->
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -139,7 +21,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/_150sdp"
+                android:layout_height="@dimen/_180sdp"
                 android:background="@drawable/home_top"
                 android:layout_margin="@dimen/_5sdp"
                 android:orientation="vertical">
@@ -148,6 +30,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
+                    android:layout_marginTop="@dimen/_10sdp"
                     android:orientation="horizontal">
 
                     <ImageView
@@ -166,8 +49,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Welcome"
-                    android:textColor="@color/red"
                     android:gravity="center"
+                    android:textColor="#9C27B0"
                     android:textSize="@dimen/_18ssp"
                     android:textStyle="bold|italic"
 
@@ -177,10 +60,22 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
+                    android:fontFamily="monospace"
+                    android:textColor="#F0092C"
                     android:text="Daily News"
-                    android:textColor="@color/blue"
                     android:textSize="@dimen/_18ssp"
                     android:textStyle="bold|italic"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Visit Daily News to read the latest news headlines, reports, analysis, sports, entertainment, jobs, politics and business from around the world including Bangladesh"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_11ssp"
+
 
                     />
 
@@ -189,68 +84,136 @@
 
 
             <Button
+                android:id="@+id/btnProthomAlo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10sdp"
+                android:backgroundTint="#8BC34A"
+                android:textColor="#122BE0"
+                android:text="প্রথম আলো"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="bold" />
+
+
+            <Button
                 android:id="@+id/btnBdnews"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/_10sdp"
-                android:backgroundTint="#2110CE"
+                android:backgroundTint="#8BC34A"
+                android:textColor="#122BE0"
                 android:text="BD News 24"
                 android:textSize="@dimen/_15ssp"
                 android:textStyle="bold" />
 
             <Button
+                android:layout_margin="@dimen/_10sdp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="@dimen/_10sdp"
-                android:backgroundTint="#2110CE"
+                android:backgroundTint="#8BC34A"
+                android:textColor="#122BE0"
                 android:text="Dhaka Tribune"
                 android:textSize="@dimen/_15ssp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                />
 
             <Button
+                android:layout_margin="@dimen/_10sdp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="@dimen/_10sdp"
-                android:backgroundTint="#2110CE"
+                android:backgroundTint="#8BC34A"
+                android:textColor="#122BE0"
                 android:text="ডয়চে ভেলে - DW"
                 android:textSize="@dimen/_15ssp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                />
 
             <Button
+                android:layout_margin="@dimen/_10sdp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="@dimen/_10sdp"
-                android:backgroundTint="#2110CE"
+                android:backgroundTint="#8BC34A"
+                android:textColor="#122BE0"
                 android:text="The Business Standard"
                 android:textSize="@dimen/_15ssp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/_10sdp"
-                android:backgroundTint="#2110CE"
+                android:backgroundTint="#8BC34A"
+                android:textColor="#122BE0"
                 android:text="Bonik Barta"
                 android:textSize="@dimen/_15ssp"
                 android:textStyle="bold" />
 
             <Button
+                android:layout_margin="@dimen/_10sdp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="@dimen/_10sdp"
-                android:backgroundTint="#2110CE"
+                android:backgroundTint="#8BC34A"
+                android:textColor="#122BE0"
                 android:text="The Financial Express"
                 android:textSize="@dimen/_15ssp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                />
 
             <Button
+                android:layout_margin="@dimen/_10sdp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="@dimen/_10sdp"
-                android:backgroundTint="#2110CE"
+                android:backgroundTint="#8BC34A"
+                android:textColor="#122BE0"
                 android:text="যায় যায় দিন"
                 android:textSize="@dimen/_15ssp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                />
+
+            <Button
+                android:layout_margin="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#8BC34A"
+                android:textColor="#122BE0"
+                android:text="The Daily Star"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="bold"
+                />
+
+            <Button
+                android:layout_margin="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#8BC34A"
+                android:textColor="#122BE0"
+                android:text="The Daily Sun"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="bold"
+                />
+
+            <Button
+                android:layout_margin="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#8BC34A"
+                android:textColor="#122BE0"
+                android:text="সমকাল"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="bold"
+                />
+
+            <Button
+                android:layout_margin="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#8BC34A"
+                android:textColor="#122BE0"
+                android:text="বাংলাদেশ প্রতিদিন"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="bold"
+                />
 
         </LinearLayout>
 
