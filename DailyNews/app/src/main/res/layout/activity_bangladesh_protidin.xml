@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BdNews24">
+
+
+    <TextView
+        android:id="@+id/heding"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:background="#F7FDBF"
+        android:gravity="center_horizontal"
+        android:text="বাংলাদেশ প্রতিদিন"
+        android:textSize="@dimen/_20ssp"
+        android:textStyle="bold" />
+
+    <WebView
+        android:id="@+id/bangladeshprotidin"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/heding"
+        android:padding="@dimen/_5sdp"
+        />
+
+
+</RelativeLayout>
