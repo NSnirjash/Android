@@ -168,6 +168,7 @@
                     >
 
                     <ImageView
+                        android:id="@+id/clubChawkbazarTerritory"
                         android:layout_width="@dimen/_60sdp"
                         android:layout_height="@dimen/_60sdp"
                         android:src="@drawable/fifa"/>
@@ -175,7 +176,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Purbachal"
+                        android:text="Chawkbazar Territory"
                         android:textColor="#DE0910"
                         android:textStyle="bold"/>
 
@@ -190,6 +191,7 @@
                     >
 
                     <ImageView
+                        android:id="@+id/clubFriendsZone"
                         android:layout_width="@dimen/_60sdp"
                         android:layout_height="@dimen/_60sdp"
                         android:src="@drawable/fifa"/>
@@ -197,7 +199,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Friend Allience"
+                        android:text="Friends Zone"
                         android:textColor="#DE0910"
                         android:textStyle="bold"/>
 

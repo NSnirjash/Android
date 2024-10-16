@@ -16,6 +16,9 @@ public class LionsClubsDashboard extends AppCompatActivity {
     ImageView clubPurbachal;
     ImageView clubFriendAllience;
     ImageView clubRangdhanu;
+    ImageView clubRisingStar;
+    ImageView clubChawkbazarTerritory;
+    ImageView clubFriendsZone;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,6 +59,39 @@ public class LionsClubsDashboard extends AppCompatActivity {
             public void onClick(View v) {
 
                 Intent intent = new Intent(getApplicationContext(), RangdhanuClub.class);
+                startActivity(intent);
+
+            }
+        });
+
+        clubRisingStar = findViewById(R.id.clubRisingStar);
+        clubRisingStar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(getApplicationContext(), RisingStarClub.class);
+                startActivity(intent);
+
+            }
+        });
+
+        clubChawkbazarTerritory = findViewById(R.id.clubChawkbazarTerritory);
+        clubChawkbazarTerritory.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(getApplicationContext(), ChawkbazarTerritory.class);
+                startActivity(intent);
+
+            }
+        });
+
+        clubFriendsZone = findViewById(R.id.clubFriendsZone);
+        clubFriendsZone.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(getApplicationContext(), FriendsZoneClub.class);
                 startActivity(intent);
 
             }
