@@ -6,13 +6,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#A6D3EF"
-    tools:context=".RisingStarClub">
+    tools:context=".RangdhanuClub">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Rising Star Club"
+        android:text="Rangdhanu Club"
         android:textSize="@dimen/_30ssp"
         android:textStyle="bold"
         android:layout_marginBottom="@dimen/_10sdp"
@@ -22,7 +22,7 @@
         android:fontFamily="sans-serif-smallcaps"/>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/risingStarRecyclerView"
+        android:id="@+id/rangdhanuRecyclerView"
         android:layout_width="410dp"
         android:layout_below="@+id/textView"
         android:layout_height="match_parent"
