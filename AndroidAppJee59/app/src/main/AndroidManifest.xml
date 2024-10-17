@@ -15,6 +15,12 @@
         android:theme="@style/Theme.AndroidAppJee59"
         tools:targetApi="31">
         <activity
+            android:name=".ProgrammeList"
+            android:exported="false" />
+        <activity
+            android:name=".LionsClubDashboard2"
+            android:exported="false" />
+        <activity
             android:name=".JatrabariClub"
             android:exported="false" />
         <activity

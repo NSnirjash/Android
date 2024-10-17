@@ -3,15 +3,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-    android:background="@drawable/fieldbackground"
+    android:background="@drawable/lightbackground"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".HomeActivity">
 
 
     <ScrollView
-        android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp">
 
@@ -23,14 +23,15 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
                 android:gravity="center"
                 android:orientation="horizontal">
 
                 <ImageView
                     android:layout_width="@dimen/_100sdp"
                     android:layout_height="@dimen/_65sdp"
-                    android:src="@drawable/fifa" />
+                    android:src="@drawable/lionsclub" />
 
                 <ImageView
                     android:layout_width="@dimen/_100sdp"
@@ -45,15 +46,18 @@
                 android:gravity="center"
                 android:text="WELCOME"
                 android:textSize="@dimen/_20ssp"
-                android:textStyle="bold|italic" />
+                android:textStyle="bold|italic"
+                android:textColor="@color/black"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="English Premier League"
+                android:text="Purbachal Lions Family"
+                android:fontFamily="sans-serif-medium"
                 android:textSize="@dimen/_20ssp"
-                android:textStyle="bold|italic" />
+                android:textStyle="bold|italic"
+                android:textColor="@color/black"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -65,20 +69,22 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.33"
+                    android:layout_marginBottom="@dimen/_20sdp"
                     android:orientation="vertical">
 
                     <ImageView
                         android:id="@+id/notification"
                         android:layout_width="wrap_content"
                         android:layout_height="93dp"
-                        android:src="@drawable/spours" />
+                        android:src="@drawable/notification" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
                         android:text="Notification"
-                        android:textStyle="bold"/>
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -96,8 +102,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
-                        android:text="Liverpool"
-                        android:textStyle="bold"/>
+                        android:text="Lions club"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -109,14 +116,15 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="93dp"
-                        android:src="@drawable/mancity" />
+                        android:src="@drawable/programme" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
-                        android:text="Manchester City"
-                        android:textStyle="bold"/>
+                        android:text="Programmes"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
                 </LinearLayout>
 
             </LinearLayout>
@@ -155,14 +163,15 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="93dp"
-                        android:src="@drawable/spours" />
+                        android:src="@drawable/director" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
                         android:text="Directors"
-                        android:textStyle="bold"/>
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -175,14 +184,15 @@
                         android:id="@+id/lionsClubs"
                         android:layout_width="wrap_content"
                         android:layout_height="93dp"
-                        android:src="@drawable/liverpool" />
+                        android:src="@drawable/lionsclubyellow" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
                         android:text="Leo Clubs"
-                        android:textStyle="bold"/>
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -192,16 +202,18 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/leoClub"
                         android:layout_width="wrap_content"
                         android:layout_height="93dp"
-                        android:src="@drawable/mancity" />
+                        android:src="@drawable/leo" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
-                        android:text="Manchester City"
-                        android:textStyle="bold"/>
+                        android:text="Leo Club"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
                 </LinearLayout>
 
             </LinearLayout>
