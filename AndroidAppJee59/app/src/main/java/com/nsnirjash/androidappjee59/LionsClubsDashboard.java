@@ -19,6 +19,7 @@ public class LionsClubsDashboard extends AppCompatActivity {
     ImageView clubRisingStar;
     ImageView clubChawkbazarTerritory;
     ImageView clubFriendsZone;
+    ImageView clubJatrabari;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -92,6 +93,17 @@ public class LionsClubsDashboard extends AppCompatActivity {
             public void onClick(View v) {
 
                 Intent intent = new Intent(getApplicationContext(), FriendsZoneClub.class);
+                startActivity(intent);
+
+            }
+        });
+
+        clubJatrabari = findViewById(R.id.clubJatrabari);
+        clubJatrabari.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(getApplicationContext(), JatrabariClub.class);
                 startActivity(intent);
 
             }
