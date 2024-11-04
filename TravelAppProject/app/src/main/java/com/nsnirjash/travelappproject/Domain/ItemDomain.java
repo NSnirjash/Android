@@ -16,7 +16,7 @@ public class ItemDomain implements Serializable {
     private int price;
     private int bed;
     private String distance;
-    private String score;
+    private double score;
 
     public ItemDomain() {
     }
@@ -125,11 +125,11 @@ public class ItemDomain implements Serializable {
         this.distance = distance;
     }
 
-    public String getScore() {
+    public double getScore() {
         return score;
     }
 
-    public void setScore(String score) {
+    public void setScore(double score) {
         this.score = score;
     }
 }
